@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CSS Variables */
+:root{
+    /* Brand Colors */
+    --brand-color:#ED3237;
+    --bg-color:#000;
+    --bg-light:#0f0f0f;
+    --text:#fff;
+    --secondary:#fff;
+    --text-secondary:#b3b3b3;
+    --link-text:#ED3237;
+    --bg-gradient: linear-gradient(180deg, var(--bg-color) 0%, var(--bg-light) 50%, #2d2d2d 100%);
+
+    /* Semantic Colors  */
+    --danger: #ff3a29;   /* Error */
+    --success: #34b53a;   /* Success */
+    --warning: #ffb200;   /* Alert */
+    --info: #10a8c7;      /* Information */
+}
+
+
+/* Regular */
+@font-face {  
+  font-family: "D-DIN";
+  src: url("./assets/fonts/D-DIN.woff2") format("woff2"); 
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap; 
+}
+
+/* Bold */
+@font-face {
+  font-family: "D-DIN";
+  src: url("./assets/fonts/D-DIN-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Italic */
+@font-face {
+  font-family: "D-DIN";
+  src: url("./assets/fonts/D-DIN-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* =========================  CONDENSED  ========================= */
+@font-face {
+  font-family: "D-DIN-Condensed";
+  src: url("./assets/fonts/D-DINCondensed.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "D-DIN-Condensed";
+  src: url("./assets/fonts/D-DINCondensed-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
+
+/* =========================  EXPANDED  ======================== */
+@font-face {
+  font-family: "D-DIN-Exp";
+  src: url("./assets/fonts/D-DINExp.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "D-DIN-Exp";
+  src: url("./assets/fonts/D-DINExp-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "D-DIN-Exp";
+  src: url("./assets/fonts/D-DINExp-Italic.woff2") format("woff2");
+  font-style: italic;
+}
+
+
+/* =========================  EXPANDED  ======================== */
+
+
+/* =========================  GLOBAL APPLY  ========================= */
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-black text-white;   
+    font-family: "D-DIN";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+}
+
+/* Custom Scrollbar for Johnnette Theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #000;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--brand-color);
+  border-radius: 10px;
+}
+
+/* Webkit based browsers (Chrome, Safari, Edge) */
+::selection {
+  background-color: var(--brand-color); 
+  color: #ffffff;   
+  color: var(--text);
+}
+
+/* For Firefox  */
+::-moz-selection {
+  background-color: var(--brand-color); 
+  color: var(--text);
+}
+
+
+
+/* styling for Blog Formatting */
+.blog-content h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.blog-content p {
+    margin-bottom: 20px;
+}
+
+.blog-content ul {
+    list-style-type: disc !important;
+    padding-left: 25px !important;
+    margin-bottom: 20px;
+}
+
+.blog-content li {
+    margin-bottom: 10px;
+}
+
+.blog-content strong {
+    color: #ffffff; 
+}
