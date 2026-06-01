@@ -721,9 +721,11 @@ const CodeEthics = () => {
                     <p className="text-gray-400 text-lg leading-relaxed">
                         Tel: +91-120-6999945
                     </p>
-                    <p className="text-gray-400 text-lg leading-relaxed">
-                        jl@johnnette.in
+                    <p className="text-lg leading-relaxed">
+                        <a href="mailto:jl@johnnette.in" target="_blank" className="text-link" >  jl@johnnette.in
+                        </a>
                     </p>
+
                     <p className="text-gray-400 text-lg leading-relaxed">
                         Upon receipt of such a complaint the CEO, or the
                         Chairman as applicable, after consultation with the

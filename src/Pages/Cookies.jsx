@@ -18,7 +18,7 @@ const Cookies = () => {
                     </h2>
                     <p className="text-gray-400 text-lg leading-relaxed ">
                         At Johnnette Technologies, accessible from 
-                        <a href="http://www.johnnette.com" target="_blank" className="text-[var(--brand-color)] hover:underline" rel="noopener noreferrer"> http://www.johnnette.com
+                        <a href="http://www.johnnette.com" target="_blank" className="text-link" rel="noopener noreferrer"> http://www.johnnette.com
                         </a>, one of our main priorities is the
                         privacy of our visitors. This Privacy Policy document
                         contains types of information that is collected and

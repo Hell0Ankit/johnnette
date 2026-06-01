@@ -1,26 +1,32 @@
 import { Routes, Route } from "react-router-dom";
+import { useEffect } from "react";
+import { initGSAPAnimations } from "./animations/fadeAnimations";
 import JF_4 from "./Pages/JF_4";
 import JF_2 from "./Pages/JF_2";
 import JM_1 from "./Pages/JM_1";
 import Home from "./Pages/Home";
 import Space from "./Pages/Space";
 import About from "./Pages/About";
-
 import Career from "./Pages/Career/Career";
 import JobDetail from "./Pages/Career/JobDetail";
-
 import Contact from "./Pages/Contact";
 import AccoladesCertifications from "./Pages/AccoladesCertifications";
 import Policy from "./Pages/Policy";
 import Cookies from "./Pages/Cookies";
 import Terms from "./Pages/Terms";
 import CodeEthics from "./Pages/CodeEthics";
-import ModernSlider from "./Pages/ModernSlider";
 import Post from "./Pages/blog/Post";
 import PostDetail from "./Pages/blog/PostDetail";
 import News from "./Pages/news/News";
 
+
+
 const App = () => {
+
+  useEffect(() => {
+    initGSAPAnimations();
+  }, []);
+
   return (
     <div>
       <Routes>
@@ -46,7 +52,6 @@ const App = () => {
         <Route path="/cookies" element={<Cookies/>} />
         <Route path="/terms" element={<Terms/>} />
         <Route path="/code-ethics" element={<CodeEthics/>} />
-        <Route path="/slider" element={<ModernSlider/>} />
 
       </Routes>
     </div>

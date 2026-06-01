@@ -44,7 +44,7 @@ const Navbar = () => {
   return (
     <>
       <header
-        className={`fixed top-0 left-0 w-full z-[60] transition-all duration-700 ease-in-out ${navBackground} ${
+        className={` fixed top-0 left-0 w-full z-[60] transition-all duration-700 ease-in-out ${navBackground} ${
           isVisible ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
         }`}
       >
@@ -106,7 +106,7 @@ const Navbar = () => {
           <i className="fa-solid fa-xmark"></i>
         </button>
 
-        <div className="flex flex-col gap-4 text-right uppercase font-[400]">
+        <div className="menu flex flex-col gap-4 text-right uppercase font-[400]">
           <NavLink to="/jf4" onClick={() => setIsSidebarOpen(false)} className={({ isActive }) => `text-[15px] border-b border-white/10 pb-2 ${isActive ? "text-[var(--brand-color)] border-[var(--brand-color)]" : "text-[var(--text)]"}`}>
             Johnnette JF-4
           </NavLink>
@@ -151,7 +151,7 @@ const Navbar = () => {
             Accolades and Certifications
           </NavLink>
 
-          <NavLink to="/#letters" onClick={() => setIsSidebarOpen(false)} className={({ isActive }) => `text-[15px] border-b border-white/10 pb-2 ${isActive ? "text-[var(--brand-color)] border-[var(--brand-color)]" : "text-[var(--text)]"}`}>
+          <NavLink to="/accolades-and-certifications#satisfactoryletters" onClick={() => setIsSidebarOpen(false)} className={({ isActive }) => `text-[15px] border-b border-white/10 pb-2 ${isActive ? "text-[var(--brand-color)] border-[var(--brand-color)]" : "text-[var(--text)]"}`}>
            Satisfactory Letters
           </NavLink>
         </div>

@@ -135,7 +135,7 @@ const Space = () => {
               <div className="space-y-4">
                 <h1 className="text-5xl lg:text-7xl font-light tracking-tight leading-tight">
                   Expanding Horizons <br />
-                  <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-600">
+                  <span className="font-bold text-white">
                     From Defence to Space
                   </span>
                 </h1>
@@ -145,7 +145,7 @@ const Space = () => {
               </div>
 
               {/* Launch Interaction Area */}
-              <div className="relative p-6 border border-gray-800 rounded-2xl bg-gray-900/40 backdrop-blur-sm max-w-sm z-30">
+              <div className="relative p-6  max-w-sm z-30">
                 <AnimatePresence mode="wait">
                   {launchStatus === 'idle' && (
                     <motion.button
@@ -153,7 +153,7 @@ const Space = () => {
                       onClick={handleLaunch}
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
-                      className="w-full py-4 bg-transparent border border-blue-500 text-blue-400 font-bold uppercase tracking-widest rounded-lg hover:bg-blue-500 hover:text-white transition-all duration-300 flex items-center justify-center gap-3"
+                      className="w-full py-4 btn btn-primary flex items-center justify-center gap-3"
                     >
                       <Rocket size={20} /> Launch CubeSat
                     </motion.button>
@@ -187,7 +187,7 @@ const Space = () => {
               <div className="absolute w-96 h-96 bg-blue-600/10 rounded-full blur-[120px]" />
 
               <motion.div
-                animate={{ rotate: 360 }}
+                animate={{ rotate: 180 }}
                 transition={{ duration: 160, repeat: Infinity, ease: "linear" }}
                 className="relative w-72 h-72 md:w-[400px] md:h-[400px] z-10 flex items-center justify-center"
               >

@@ -22,7 +22,7 @@ import VDHome from "../assets/video/home/home.mp4";
 
 const Home = () => {
   return (
-    <Layout title="Cookies Policy | Johnnette Technologies">
+    <Layout title="Home | Johnnette Technologies">
         <section className="section-custom ">
             <ProductSection 
                 title="JOHNNETTE JF-4"

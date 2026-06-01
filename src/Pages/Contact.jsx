@@ -79,7 +79,7 @@ const Contact = () => {
                                 <div className="bg-blue-500/20 p-2 rounded-lg">
                                     <i className="fa-solid fa-envelope text-[#ffff]"></i>
                                 </div>
-                                <a href="mailto:contact@johnnette.com" className="text-slate-300 hover:text-blue-400 transition-colors font-medium">
+                                <a href="mailto:contact@johnnette.com" className="text-white text-link transition-colors font-medium">
                                     contact@johnnette.com
                                 </a>
                             </div>
