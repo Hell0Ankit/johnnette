@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/img/logo/logo.png";
 
+
 const Navbar = () => {
   const [lastScrollY, setLastScrollY] = useState(0);
   const [isVisible, setIsVisible] = useState(true);
@@ -40,8 +41,11 @@ const Navbar = () => {
   }, [lastScrollY]);
 
   const toggleSidebar = () => setIsSidebarOpen(!isSidebarOpen);
-
+  
+ 
+   
   return (
+  
     <>
       <header
         className={` fixed top-0 left-0 w-full z-[60] transition-all duration-700 ease-in-out ${navBackground} ${

@@ -1,6 +1,4 @@
 import { Routes, Route } from "react-router-dom";
-import { useEffect } from "react";
-import { initGSAPAnimations } from "./animations/fadeAnimations";
 import JF_4 from "./Pages/JF_4";
 import JF_2 from "./Pages/JF_2";
 import JM_1 from "./Pages/JM_1";
@@ -21,11 +19,11 @@ import News from "./Pages/news/News";
 
 
 
-const App = () => {
 
-  useEffect(() => {
-    initGSAPAnimations();
-  }, []);
+
+
+
+const App = () => {
 
   return (
     <div>

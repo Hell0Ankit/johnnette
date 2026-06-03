@@ -14,7 +14,7 @@ const Space = () => {
     if (launchStatus !== 'idle') return;
     setLaunchStatus('launching');
     setCountdown(5);
-  };
+  };  
 
   useEffect(() => {
     let timer;
@@ -177,7 +177,7 @@ const Space = () => {
                       <p className="text-green-400 font-bold uppercase tracking-widest">Launch Initiated...</p>
                       <p className="text-gray-500 text-xs mt-1">Satellite in stable orbit</p>
                     </motion.div>
-                  )}
+                  )}  
                 </AnimatePresence>
               </div>
             </motion.div>

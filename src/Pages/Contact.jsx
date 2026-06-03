@@ -12,6 +12,10 @@ import contactimg from "../assets/img/contact/contact_us_3.webp";
 import map_pin from "../assets/img/contact/icons/india.png";
 import map_chart from "../assets/img/contact/MapChart.webp";
 
+import { useGSAP } from "@gsap/react";
+import { initAnimations } from "../animations/animation.js";
+
+
 
 
 const Contact = () => {
@@ -25,6 +29,11 @@ const Contact = () => {
       }
     }
   }, [hash]);
+useGSAP(() => {
+            initAnimations();
+        })
+
+
   return (
      <Layout title="Contact | Johnnette Technologies">
         <section className="section-custom">
@@ -37,7 +46,7 @@ const Contact = () => {
         <section className="section-custom py-20 px-6" id='contact'> 
             <div className="body-container grid md:grid-cols-2 gap-12 items-center">
                 {/* Left Side: Contact Form */}
-                <div className="bg-blue-600/10 py-14 px-5 card " >
+                <div className=" fade-up bg-blue-600/10 py-14 px-5 card " >
                     <ContactForm />
                 </div>
 
@@ -45,7 +54,7 @@ const Contact = () => {
                 <div className="flex flex-col space-y-8">
                     {/* --- LOCATION 1: HEADQUARTER --- */}
                     <div className="bg-blue-600/10 p-8 card  hover:bg-blue-600/20 transition-all duration-300 group">
-                        <div className="flex items-center gap-5 pb-6 mb-6 border-b border-[#3a3a3a]">
+                        <div className="fade-up flex items-center gap-5 pb-6 mb-6 border-b border-[#3a3a3a]">
                             <div className="flex-shrink-0">
                                 <img 
                                     src={map_pin}
@@ -59,7 +68,7 @@ const Contact = () => {
                                 </div>
                         </div>
 
-                        <div className="space-y-6">
+                        <div className="fade-up space-y-6">
                             <div className="flex gap-5 items-start">
                                 <div className="bg-blue-500/20 p-2 rounded-lg">
                                     <i className="fa-solid fa-location-dot text-[#ffff] text-lg"></i>
@@ -87,7 +96,7 @@ const Contact = () => {
                     </div>
 
                     {/* --- LOCATION 2: MFG UNIT --- */}
-                    <div className="bg-emerald-600/10 p-8 card border border-emerald-500/20 hover:bg-emerald-600/20 transition-all duration-300 group">
+                    <div className="fade-up bg-emerald-600/10 p-8 card border border-emerald-500/20 hover:bg-emerald-600/20 transition-all duration-300 group">
                         <div className="flex items-center gap-5 pb-6 mb-6 border-b border-[#3a3a3a]">
                             <div className="flex-shrink-0">
                                  <img 

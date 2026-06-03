@@ -5,7 +5,7 @@ const JobCard = ({ job}) => {
    const navigate = useNavigate();
      return (
         <div className="card p-6 shadow-sm hover:shadow-lg transition-all flex flex-col h-full">
-            <div className="flex-grow space-y-4">
+            <div className="fade-up flex-grow space-y-4">
                 <div className="flex flex-wrap gap-3 justify-start">
                     {/* Experience  */}
                     <span className="flex items-center gap-2 bg-blue-50 text-blue-700 px-2 py-1 rounded-full text-[12px] font-bold uppercase tracking-wide">

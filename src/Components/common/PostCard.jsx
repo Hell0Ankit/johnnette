@@ -4,9 +4,8 @@ import { useNavigate } from 'react-router-dom';
 const PostCard = ({post}) => {
    const navigate = useNavigate();
      return (
-        <div className="card p-6 shadow-sm hover:shadow-lg transition-all flex flex-col h-full">
-            <div className="flex-grow space-y-4">
-                
+        <div className=" card p-6 shadow-sm hover:shadow-lg transition-all flex flex-col h-full">
+            <div className="fade-up flex-grow space-y-4">
                 {/* 1. Image */}
                 <div className="w-full h-48 overflow-hidden rounded-sm">
                     <img 

@@ -26,8 +26,8 @@ const BoardOfDirectors = () => {
             </div>
             {/* Top CEO */}
             <div className="flex justify-center mb-16">
-                <div className="text-center space-y-2 ">
-                    <img src={john} className="w-[185px] h-[185px] rounded-full mx-auto mb-4" />
+                <div className="team-card text-center space-y-2 ">
+                    <img src={john} className="team-img w-[185px] h-[185px] rounded-full mx-auto mb-4" />
                     <h3 className="text-[22px]  ">Lt Cdr John Livingstone</h3>
                     <p className="pb-2 text-[16px] text-gray-300">Founder, Chairman & CEO </p>
                     <div className="flex items-center justify-center">
@@ -39,8 +39,8 @@ const BoardOfDirectors = () => {
             {/* Bottom 3 */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[50px] lg:gap-[100px] max-w-[100%] mx-auto text-center">
                 {/* Rajiv */}
-                <div className="text-center space-y-2">
-                    <img src={rajiv} className="w-[185px] h-[185px] rounded-full mx-auto mb-4" />
+                <div className="team-card text-center space-y-2">
+                    <img src={rajiv} className="team-img w-[185px] h-[185px] rounded-full mx-auto mb-4" />
                     <h3 className="text-[22px]">Rajiv Vermani</h3>
                     <p className="pb-2 text-[16px] text-gray-300"> Director & CEO Digital and Automation </p>
                     <div className="flex items-center justify-center">
@@ -49,8 +49,8 @@ const BoardOfDirectors = () => {
                 </div>
 
                 {/* Annette */}
-                <div className="text-center space-y-2">
-                    <img src={annette} className="w-[185px] h-[185px] rounded-full mx-auto mb-4" />
+                <div className="team-card text-center space-y-2">
+                    <img src={annette} className="team-img w-[185px] h-[185px] rounded-full mx-auto mb-4" />
                     <h3 className="text-[22px]">Annette Livingstone</h3>
                     <p className="pb-2 text-[16px] text-gray-300">
                     Chief Review Officer
@@ -61,8 +61,8 @@ const BoardOfDirectors = () => {
                 </div>
 
                 {/* Ram */}
-                <div className="text-center space-y-2">
-                    <img src={ram} className="w-[185px] h-[185px] rounded-full mx-auto mb-4" />
+                <div className="team-card text-center space-y-2">
+                    <img src={ram} className="team-img w-[185px] h-[185px] rounded-full mx-auto mb-4" />
                     <h3 className="text-[22px]">Ram Sarath Kumar</h3>
                     <p className=" pb-2 text-[16px] text-gray-300">
                     COO & Chief Financial Officer
@@ -73,8 +73,8 @@ const BoardOfDirectors = () => {
                 </div>
 
                  {/* Cyril Christopher */}
-                <div className="text-center space-y-2">
-                    <img src={cyril} className="w-[185px] h-[185px] rounded-full mx-auto mb-4" />
+                <div className="team-card text-center space-y-2">
+                    <img src={cyril} className="team-img w-[185px] h-[185px] rounded-full mx-auto mb-4" />
                     <h3 className="text-[22px]">Cyril Christopher </h3>
                     <p className="pb-2 text-[16px] text-gray-300">Chief Technology Officer </p>
                      <div className="flex items-center justify-center">
@@ -83,8 +83,8 @@ const BoardOfDirectors = () => {
                 </div>
 
                 {/* Prashant Kumar */}
-                <div className="text-center space-y-2">
-                    <img src={prashant} className="w-[185px] h-[185px] rounded-full mx-auto mb-4" />
+                <div className="team-card text-center space-y-2">
+                    <img src={prashant} className="team-img w-[185px] h-[185px] rounded-full mx-auto mb-4" />
                     <h3 className="text-[22px]">Prashant Kumar</h3>
                     <p className="pb-2 text-[16px] text-gray-300">Assistant Chief Technology Officer </p>
                     <div className="flex items-center justify-center">
@@ -93,8 +93,8 @@ const BoardOfDirectors = () => {
                 </div>
 
                 {/* Abhinav */}
-                <div className="text-center space-y-2">
-                    <img src={abhinav} className="w-[185px] h-[185px] rounded-full mx-auto mb-4" />
+                <div className="team-card text-center space-y-2">
+                    <img src={abhinav} className="team-img w-[185px] h-[185px] rounded-full mx-auto mb-4" />
                     <h3 className="text-[22px]">Abhinav Varrey</h3>
                     <p className="pb-2 text-[16px] text-gray-300">Assistant Chief Sales Officer</p>
                     <div className="flex items-center justify-center">
@@ -109,8 +109,8 @@ const BoardOfDirectors = () => {
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[50px] lg:gap-[100px] max-w-[100%] mx-auto text-center">
                 {/* Gautam Banerjee */}
-                <div className="text-center space-y-2">
-                    <img src={gautam} className="w-[185px] h-[185px] rounded-full mx-auto mb-4" />
+                <div className="team-card text-center space-y-2">
+                    <img src={gautam} className="team-img w-[185px] h-[185px] rounded-full mx-auto mb-4" />
                     <h3 className="text-[22px]">Wg Cdr Gautam Banerjee</h3>
                     <p className="pb-2 text-[16px] text-gray-300">Director & Chief Flight Operations Officer </p>
                     {/* <div className="flex items-center justify-center">
@@ -119,8 +119,8 @@ const BoardOfDirectors = () => {
                 </div>
 
                 {/* Kapil Sangwan */}
-                <div className="text-center space-y-2 ">
-                    <img src={kapil} className="w-[185px] h-[185px] rounded-full mx-auto mb-4" />
+                <div className="team-card text-center space-y-2 ">
+                    <img src={kapil} className="team-img w-[185px] h-[185px] rounded-full mx-auto mb-4" />
                     <h3 className="text-[22px]">Lt Cdr Kapil Sangwan</h3>
                     <p className=" pb-2 text-[16px] text-gray-300">Chief Marine Systems Officer</p>
                    <div className="flex items-center justify-center">
@@ -129,8 +129,8 @@ const BoardOfDirectors = () => {
                 </div>
 
                 {/* M.S. Prasad */}
-                <div className="text-center space-y-2">
-                    <img src={prasad} className="w-[185px] h-[185px] rounded-full mx-auto mb-4" />
+                <div className="team-card text-center space-y-2">
+                    <img src={prasad} className="team-img w-[185px] h-[185px] rounded-full mx-auto mb-4" />
                     <h3 className="text-[22px]">Dr. M.S. Prasad</h3>
                     <p className="text-[16px] text-gray-300">Ex Scientist G (DRDO) <br/> Scientific Advisor for Defence Relations</p>
                     {/* <div className="flex items-center justify-center">
@@ -139,8 +139,8 @@ const BoardOfDirectors = () => {
                 </div>
 
                 {/* Hem Kumar Naidu */}
-                <div className="lg:col-start-2 text-center space-y-2">
-                    <img src={hemkumar} className="w-[185px] h-[185px] rounded-full mx-auto mb-4" />
+                <div className="team-card lg:col-start-2 text-center space-y-2">
+                    <img src={hemkumar} className="team-img w-[185px] h-[185px] rounded-full mx-auto mb-4" />
                     <h3 className="text-[22px]">Lt Cdr Hem Kumar Naidu</h3>
                     <p className="pb-2 text-[16px] text-gray-300">Assistant Chief Operations Officer</p>
                     {/* <div className="flex items-center justify-center">
@@ -156,8 +156,8 @@ const BoardOfDirectors = () => {
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[50px] lg:gap-[100px] max-w-[100%] mx-auto text-center">
                 {/* Jogendra Singh */}
-                <div className="text-center space-y-2">
-                    <img src={jogendra } className="w-[185px] h-[185px] rounded-full mx-auto mb-4" />
+                <div className="team-card text-center space-y-2">
+                    <img src={jogendra } className="team-img w-[185px] h-[185px] rounded-full mx-auto mb-4" />
                     <h3 className="text-[22px]">Jogendra Singh</h3>
                     <p className="text-[16px] text-gray-300">HOD  </p>
                     <p className="pb-2 text-[16px] text-gray-300">Technical administration & structure </p>
@@ -167,8 +167,8 @@ const BoardOfDirectors = () => {
                 </div>
 
                 {/* Pankaj Yadav */}
-                <div className="text-center space-y-2">
-                    <img src={pankaj} className="w-[185px] h-[185px] rounded-full mx-auto mb-4" />
+                <div className="team-card text-center space-y-2">
+                    <img src={pankaj} className="team-img w-[185px] h-[185px] rounded-full mx-auto mb-4" />
                     <h3 className="text-[22px]">Pankaj Yadav</h3>
                     <p className="text-[16px] text-gray-300">HOD</p>
                     <p className="pb-2 text-[16px] text-gray-300">QA & QC</p>
@@ -178,8 +178,8 @@ const BoardOfDirectors = () => {
                 </div>
 
                 {/* Gaurav Maurya */}
-                <div className="text-center space-y-2">
-                    <img src={gaurav} className="w-[185px] h-[185px] rounded-full mx-auto mb-4" />
+                <div className="team-card text-center space-y-2">
+                    <img src={gaurav} className="team-img w-[185px] h-[185px] rounded-full mx-auto mb-4" />
                     <h3 className="text-[22px]">Gaurav Maurya</h3>
                     <p className="text-[16px] text-gray-300">HOD</p>
                     <p className="pb-2 text-[16px] text-gray-300">IT</p>
@@ -189,8 +189,8 @@ const BoardOfDirectors = () => {
                 </div>
 
                 {/* Hetal Kushvaha*/}
-                <div className="text-center space-y-2">
-                    <img src={hetal} className="w-[185px] h-[185px] rounded-full mx-auto mb-4" />
+                <div className=" team-card text-center space-y-2">
+                    <img src={hetal} className="team-img w-[185px] h-[185px] rounded-full mx-auto mb-4" />
                     <h3 className="text-[22px]">Hetal Kushvaha</h3>
                     <p className="text-[16px] text-gray-300">HOD</p>
                     <p className="pb-2 text-[16px] text-gray-300">Human Resources</p>
@@ -199,8 +199,8 @@ const BoardOfDirectors = () => {
                     </div>
                 </div>
                 {/* Aman Pal*/}
-                <div className="text-center space-y-2">
-                    <img src={aman} className="w-[185px] h-[185px] rounded-full mx-auto mb-4" />
+                <div className="team-card text-center space-y-2">
+                    <img src={aman} className="team-img w-[185px] h-[185px] rounded-full mx-auto mb-4" />
                     <h3 className="text-[22px]">Aman Pal</h3>
                     <p className="text-[16px] text-gray-300">HOD</p>
                     <p className="pb-2 text-[16px] text-gray-300">Accounts</p>

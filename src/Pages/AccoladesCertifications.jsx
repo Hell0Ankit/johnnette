@@ -15,6 +15,10 @@ import skoch from "../assets/img/certifications/skoch.png";
 import indianAcheivers from "../assets/img/certifications/indian-acheivers-award.webp";
 import IPF_2021 from "../assets/img/certifications/IPF_2021.png";
 
+import { useGSAP } from "@gsap/react";
+import { initAnimations } from "../animations/animation.js";
+
+
 
 const AccoladesCertifications = () => {
 	 const { hash } = useLocation();
@@ -27,6 +31,11 @@ const AccoladesCertifications = () => {
       }
     }
   }, [hash]);
+
+  useGSAP(() => {
+            initAnimations();
+        })
+
   return (
     <Layout title="Accolades And Certifications | Johnnette Technologies">
 		<section className="section-custom">
@@ -39,18 +48,18 @@ const AccoladesCertifications = () => {
 
 		<section className="section-custom mb-11">
 			 <SectionHeading title="AWARDS" />
-				<div className="body-container grid grid-cols-1 md:grid-cols-3 gap-4 p-4 font-sans">
-					<div className="md:col-span-2 bg-slate-100 rounded-3xl overflow-hidden shadow-sm">
+				<div className="stagger-wrapper body-container grid grid-cols-1 md:grid-cols-3 gap-4 p-4 font-sans">
+					<div className="stagger-item md:col-span-2 bg-slate-100 rounded-3xl overflow-hidden shadow-sm">
 						<img src={img2} className="w-full h-full object-cover" alt="Event" />
 					</div>
-					<div className="bg-indigo-600 rounded-3xl p-8 flex flex-col justify-center text-white">
+					<div className="stagger-item bg-indigo-600 rounded-3xl p-8 flex flex-col justify-center text-white">
 						<h3 className="text-4xl font-black mb-2 italic">2024</h3>
 						<p className="text-indigo-100 uppercase tracking-widest text-sm font-bold">SIDM Champion Award</p>
 					</div>
-					<div className="bg-white border border-slate-200 rounded-3xl p-6 md:col-span-1 flex items-center justify-center shadow-sm">
+					<div className="stagger-item bg-white border border-slate-200 rounded-3xl p-6 md:col-span-1 flex items-center justify-center shadow-sm">
 						<img src={img1} className="h-48 object-contain" alt="Trophy" />
 					</div>
-					<div className="md:col-span-2 bg-slate-900 rounded-3xl p-8 text-white flex items-center">
+					<div className="stagger-item md:col-span-2 bg-slate-900 rounded-3xl p-8 text-white flex items-center">
 						<p className="text-xl font-light leading-snug">
 						The SIDM Champion Award 2024 was presented on October 4, 2024, by Shri Rajnath Singh, the Honorable Defence Minister of India, alongside Chief of Defence Staff Gen Anil Chauhan, PVSM UYSM AVSM SM VSM ADC. This award recognizes our extraordinary product, the Johnnette JM-1 Loitering Munition.
 						</p>
@@ -61,8 +70,8 @@ const AccoladesCertifications = () => {
 
 		<section className="section-custom">
 			<SectionHeading title="DEFENCE INDUSTRIAL LICENSE" />
-				<div className="max-w-md body-container group">
-					<div className="p-8 bg-white border border-slate-200 rounded-2xl shadow-sm transition-all duration-500 hover:shadow-2xl hover:-translate-y-2">
+				<div className="fade-up max-w-md body-container group">
+					<div className=" p-8 bg-white border border-slate-200 rounded-2xl shadow-sm transition-all duration-500 hover:shadow-2xl hover:-translate-y-2">
 						<div className="mb-6 rounded-xl border border-slate-100 overflow-hidden shadow-inner bg-slate-50">
 							<img src="AccoladesCertifications/license/img/DIL.jpg" className="w-full h-auto transform transition-transform duration-700 group-hover:scale-105" alt="Defence License" />
 						</div>
@@ -77,9 +86,9 @@ const AccoladesCertifications = () => {
 
 		<section className="section-custom">
 			<SectionHeading title="PATENTS" />
-            <div className="body-container max-w-6xl mx-auto px-4">
+            <div className="stagger-wrapper body-container max-w-6xl mx-auto px-4">
 				<div className="flex flex-wrap justify-center gap-8">
-					<div className="group w-full sm:w-[350px] p-8 bg-white border border-slate-200 rounded-2xl shadow-sm">
+					<div className="stagger-item group w-full sm:w-[350px] p-8 bg-white border border-slate-200 rounded-2xl shadow-sm">
 						<div className="mb-6 rounded-xl border border-slate-100 overflow-hidden shadow-inner bg-slate-50">
 							<img src="AccoladesCertifications/Patents/img/patent1.png" className="w-full h-auto transform transition-transform duration-700 group-hover:scale-105" alt="Defence License" />
 						</div>
@@ -91,7 +100,7 @@ const AccoladesCertifications = () => {
 						</div>
 					</div>
 
-					<div className="group w-full sm:w-[350px] p-8 bg-white border border-slate-200 rounded-2xl shadow-sm">
+					<div className="stagger-item  group w-full sm:w-[350px] p-8 bg-white border border-slate-200 rounded-2xl shadow-sm">
 						<div className="mb-6 rounded-xl border border-slate-100 overflow-hidden shadow-inner bg-slate-50">
 							<img src="AccoladesCertifications/Patents/img/patent2.jpg" className="w-full h-auto transform transition-transform duration-700 group-hover:scale-105" alt="Defence License" />
 						</div>
@@ -110,7 +119,7 @@ const AccoladesCertifications = () => {
 
 		<section className="section-custom">
 			<SectionHeading title="ACCOLADES" />
-				<div class="body-container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+				<div class="fade-up body-container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
 					<div class="group relative bg-gradient-to-b from-zinc-800 to-black p-[1px] card overflow-hidden hover:scale-105 transition-all duration-500 shadow-2xl shadow-amber-900/20">
 						<div class="bg-[#121212]  p-6 h-full flex flex-col">
 							<div class="relative bg-zinc-900/50  py-10 mb-8 border border-white/5 overflow-hidden">
@@ -267,9 +276,9 @@ const AccoladesCertifications = () => {
 
 		<section className="section-custom" id='satisfactoryletters'>
 			<SectionHeading title="SATISFACTORY LETTERS" />
-  				<div className="body-container grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-6">
+  				<div className="fade-up  body-container grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-6">
 					
-					<div className="card group relative flex flex-col p-2 transition-all duration-300 ">
+					<div className=" card group relative flex flex-col p-2 transition-all duration-300 ">
 						<div className=" relative aspect-[3/4]  border-slate-100 overflow-hidden shadow-inner bg-slate-50 flex items-center justify-center">
 							<img src="AccoladesCertifications/satisfactory-letters/img/satisfactory-do-letter-1.png" className="w-full h-full object-contain transform transition-transform duration-700 group-hover:scale-110" alt="Award Document" />
 							{/* <!-- Desktop Hover Overlay (Hidden on Mobile) --> */}
@@ -283,7 +292,7 @@ const AccoladesCertifications = () => {
 						</div>
 					</div>
 
-					<div className="card group relative flex flex-col p-2 transition-all duration-300 ">
+					<div className=" card group relative flex flex-col p-2 transition-all duration-300 ">
 						<div class=" relative aspect-[3/4]  border-slate-100 overflow-hidden shadow-inner bg-slate-50 flex items-center justify-center">
 							<img src="AccoladesCertifications/satisfactory-letters/img/satisfactory-do-letter-2.png" className="w-full h-full object-contain transform transition-transform duration-700 group-hover:scale-110" alt="Award Document" />
 							{/* <!-- Desktop Hover Overlay (Hidden on Mobile) --> */}
@@ -297,7 +306,7 @@ const AccoladesCertifications = () => {
 						</div>
 					</div>
 
-					<div className="card group relative flex flex-col p-2 transition-all duration-300 ">
+					<div className=" card group relative flex flex-col p-2 transition-all duration-300 ">
 						<div className=" relative aspect-[3/4]  border-slate-100 overflow-hidden shadow-inner bg-slate-50 flex items-center justify-center">
 							<img src="AccoladesCertifications/satisfactory-letters/img/satisfactory-do-letter-3.png" className="w-full h-full object-contain transform transition-transform duration-700 group-hover:scale-110" alt="Award Document" />
 							{/* <!-- Desktop Hover Overlay (Hidden on Mobile) --> */}
@@ -311,7 +320,7 @@ const AccoladesCertifications = () => {
 						</div>
 					</div>
 
-					<div className="card group relative flex flex-col p-2 transition-all duration-300 ">
+					<div className=" card group relative flex flex-col p-2 transition-all duration-300 ">
 						<div className=" relative aspect-[3/4]  border-slate-100 overflow-hidden shadow-inner bg-slate-50 flex items-center justify-center">
 							<img src="AccoladesCertifications/satisfactory-letters/img/satisfactory-do-letter-4.png" className="w-full h-full object-contain transform transition-transform duration-700 group-hover:scale-110" alt="Award Document" />
 							{/* <!-- Desktop Hover Overlay (Hidden on Mobile) --> */}
@@ -426,7 +435,7 @@ const AccoladesCertifications = () => {
 
 		<section className="section-custom">
 			<SectionHeading title="CERTIFICATIONS" />
-  				<div className="body-container grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-6">
+  				<div className="fade-up body-container grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-6">
 					<div className="card group relative flex flex-col p-2 transition-all duration-300 ">
 						<div className=" relative aspect-[3/4]   overflow-hidden shadow-inner  flex items-center justify-center">
 							<img src="AccoladesCertifications/certifications/img/udyam_registration_certificate.png" className="w-full h-full object-contain transform transition-transform duration-700 group-hover:scale-110" alt="Award Document" />

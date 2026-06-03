@@ -29,6 +29,9 @@ import slide_8 from "../assets/img/JM1/ImagesCarousel/JM1_slide_8.webp";
 import slide_9 from "../assets/img/JM1/ImagesCarousel/JM1_slide_9.webp";
 import AskDemo from '../Components/common/AskDemo';
 
+import { useGSAP } from "@gsap/react";
+import { initAnimations } from "../animations/animation.js";
+
 
 const JM1_imgs = [
     {src: slide_1 },
@@ -44,6 +47,9 @@ const JM1_imgs = [
 ]
 
 const JM_1 = () => {
+      useGSAP(() => {
+          initAnimations();
+        })
   return (
     <Layout title="JM-1 | Johnnette Technologies">
         <section className="section-custom">

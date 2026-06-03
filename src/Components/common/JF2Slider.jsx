@@ -3,6 +3,7 @@ import Slide1 from "../../assets/img/JF2/slide.webp";
 import Slide2 from "../../assets/img/JF2/slide1.webp";
 // import Slide3 from "../../assets/img/JF2/slide_3.jpg";
 
+
 const JF2Slider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 

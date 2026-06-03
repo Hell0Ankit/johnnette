@@ -20,7 +20,16 @@ import government from "../assets/img/icons/government.png";
 import VDHome from "../assets/video/home/home.mp4";
 
 
+import { useGSAP } from "@gsap/react";
+import { initAnimations } from "../animations/animation.js";
+
+
+
+
 const Home = () => {
+useGSAP(() => {
+    initAnimations();
+  })
   return (
     <Layout title="Home | Johnnette Technologies">
         <section className="section-custom ">
@@ -53,9 +62,9 @@ const Home = () => {
             />
         </section>
 
-        <section className="section-custom py-16">
+        <section className=" section-custom py-16">
             <SectionHeading title="DELIVERING EXCELLENCE" />
-                <div className="body-container flex flex-wrap justify-center items-center  gap-4 md:gap-2 lg:gap-4 xl:gap-6 mt-10">
+                <div className="zoom-in body-container flex flex-wrap justify-center items-center  gap-4 md:gap-2 lg:gap-4 xl:gap-6 mt-10">
                     <div className="card w-full md:w-[calc(50%-20px)] lg:w-[calc(33.33%-26.6px)] xl:w-[calc(25%-30px)] text-center p-6 space-y-5 for-box">
                         <img src={delivered} alt="Total Drones & Robots Delivered" className="zoom-out block p-5 brightness-125 w-[70px] sm:w-[100px] h-auto rounded-full shadow-[0_0_25px_rgba(255,255,255,0.4)] mb-6 mx-auto" />
                         <h2 className="text-center text-[30px] md:text-[35px] lg:text-[50px] font-bold font-expanded leading-none ">

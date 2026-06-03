@@ -4,11 +4,19 @@ import top_bar from "../../assets/img/news/top-bar.webp";
 import { NewsData } from "../../data/NewsData";
 import React, { useState } from "react";
 
+import { useGSAP } from "@gsap/react";
+import { initAnimations } from "../../animations/animation.js";
+
+
 const News = () => {
     const [visibleCount, setVisibleCount] = useState(18);
     const loadMore = () => {
         setVisibleCount((prev) => prev + 18);
     };
+
+    useGSAP(() => {
+            initAnimations();
+        })
     return (
         <Layout title="News and Media | Johnnette Technologies">
             <section className="section-custom">
@@ -21,7 +29,7 @@ const News = () => {
             <section className="section-custom bg-[#0e0d0d]">
                 <div className="body-container py-5 lg:py-20">
                     {/* Grid */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                    <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                         {NewsData.slice(0, visibleCount).map((news) => (
                             <div
                                 key={news.id}

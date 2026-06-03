@@ -28,29 +28,29 @@ const PageVideoTopbar = ({
         </div>
 
         {/* 2. Content Section */}
-        <div className="relative lg:absolute inset-0 z-10 flex flex-col justify-center items-center text-[var(--text)] text-center px-4 py-[50px] lg:py-0 bg-[var(--bg-color)]  md:bg-transparent">
-            <h2 className="text-[30px] sm:text-[55px] lg:text-[70px] uppercase font-[600] mb-6"> 
+        <div className=" relative lg:absolute inset-0 z-10 flex flex-col justify-center items-center text-[var(--text)] text-center px-4 py-[50px] lg:py-0 bg-[var(--bg-color)]  md:bg-transparent">
+            <h2 className="fade-up text-[30px] sm:text-[55px] lg:text-[70px] uppercase font-[600] mb-6"> 
                 {title} 
             </h2>
-                <div className="w-full max-w-xl mx-auto overflow-x-auto flex justify-center">
+                <div className=" overflow-hidden w-full max-w-xl mx-auto overflow-x-auto flex justify-center">
                     <table className="w-full border-collapse text-center">
                         <thead className="">
-                        <tr className="">
-                            <th className="px-2 lg:px-6 font-[500] text-[14px] lg:text-[20px] text-[var(--text)]">{up_to}</th>
-                            <th className="px-2 lg:px-6 font-[500] text-[14px] lg:text-[20px] text-[var(--text)] border-l border-r border-[var(--text)]">{up_to}</th>
-                            <th className="px-2 lg:px-6 font-[500] text-[14px] lg:text-[20px] text-[var(--text)]">{up_to}</th>
+                        <tr className="stagger-wrapper">
+                            <th className="stagger-item px-2 lg:px-6 font-[500] text-[14px] lg:text-[20px] text-[var(--text)]">{up_to}</th>
+                            <th className="stagger-item px-2 lg:px-6 font-[500] text-[14px] lg:text-[20px] text-[var(--text)] border-l border-r border-[var(--text)]">{up_to}</th>
+                            <th className="stagger-item px-2 lg:px-6 font-[500] text-[14px] lg:text-[20px] text-[var(--text)]">{up_to}</th>
                         </tr>
 
-                        <tr>
-                            <th className="px-2 lg:px-6 font-[600] text-[20px] sm:text-[25px] lg:text-[35px] text-[var(--text)] py-2">{range}</th>
-                            <th className="px-2 lg:px-6 font-[600] text-[20px] sm:text-[25px] lg:text-[35px] text-[var(--text)] border-l border-r border-[var(--text)] py-2">{flightTime}</th>
-                            <th className="px-2 lg:px-6 font-[600] text-[20px] sm:text-[25px] lg:text-[35px] text-[var(--text)] py-2">{weight}</th>
+                        <tr className="stagger-wrapper">
+                            <th className="stagger-item px-2 lg:px-6 font-[600] text-[20px] sm:text-[25px] lg:text-[35px] text-[var(--text)] py-2">{range}</th>
+                            <th className="stagger-item px-2 lg:px-6 font-[600] text-[20px] sm:text-[25px] lg:text-[35px] text-[var(--text)] border-l border-r border-[var(--text)] py-2">{flightTime}</th>
+                            <th className="stagger-item px-2 lg:px-6 font-[600] text-[20px] sm:text-[25px] lg:text-[35px] text-[var(--text)] py-2">{weight}</th>
                         </tr>
 
-                        <tr className="">
-                            <th className="px-2 lg:px-6 font-[500] text-[12px] lg:text-[18px] text-[var(--text)]">{range_title}</th>
-                            <th className="px-2 lg:px-6 font-[500] text-[12px] lg:text-[18px] text-[var(--text)] border-l border-r border-[var(--text)]">{flight_time_title}</th>
-                            <th className="px-2 lg:px-6 font-[500] text-[12px] lg:text-[18px] text-[var(--text)]">{weight_title}</th>
+                        <tr className="stagger-wrapper">
+                            <th className="stagger-item px-2 lg:px-6 font-[500] text-[12px] lg:text-[18px] text-[var(--text)]">{range_title}</th>
+                            <th className="stagger-item px-2 lg:px-6 font-[500] text-[12px] lg:text-[18px] text-[var(--text)] border-l border-r border-[var(--text)]">{flight_time_title}</th>
+                            <th className="stagger-item px-2 lg:px-6 font-[500] text-[12px] lg:text-[18px] text-[var(--text)]">{weight_title}</th>
                         </tr>
                         </thead>
                     </table>

@@ -3,7 +3,14 @@ import PageTopBarImage from "../Components/common/PageTopBarImage";
 import SectionHeading from "../Components/common/SectionHeading";
 import top_bar from "../assets/img/code-ethics/code-of-ethics.webp";
 
+import { useGSAP } from "@gsap/react";
+import { initAnimations } from "../animations/animation.js";
+
+
 const CodeEthics = () => {
+useGSAP(() => {
+            initAnimations();
+        })
     return (
         <Layout title="Code of Ethics and Business Conduct | Johnnette Technologies">
             <section className="section-custom">

@@ -3,7 +3,14 @@ import PageTopBarImage from "../Components/common/PageTopBarImage";
 import SectionHeading from "../Components/common/SectionHeading";
 import top_bar from "../assets/img/cookies/cookies-policy.webp";
 
+import { useGSAP } from "@gsap/react";
+import { initAnimations } from "../animations/animation.js";
+
+
 const Cookies = () => {
+  useGSAP(() => {
+              initAnimations();
+          })
     return (
         <Layout title="Cookies Policy | Johnnette Technologies">
             <section className="section-custom">

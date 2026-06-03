@@ -3,7 +3,14 @@ import PageTopBarImage from "../Components/common/PageTopBarImage";
 import SectionHeading from "../Components/common/SectionHeading";
 import top_bar from "../assets/img/policy/policy-topbar.webp";
 
+import { useGSAP } from "@gsap/react";
+import { initAnimations } from "../animations/animation.js";
+
+
 const Policy = () => {
+    useGSAP(() => {
+            initAnimations();
+        })
     return (
         <Layout title="Privacy Policies | Johnnette Technologies">
             <section className="section-custom">

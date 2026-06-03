@@ -46,12 +46,8 @@
 }
 
 /* transition */
-.zoom-in {
-    @apply scale-100 hover:scale-110 transition-all duration-[1500ms] ease-[cubic-bezier(0.4,0,0.2,1)];
-    }
-.zoom-out {
-    @apply scale-100 hover:scale-95 transition-all duration-700 ease-[cubic-bezier(0.4,0,0.2,1)] will-change-transform;
-    }
+
+
 
 .for-box {
     @apply bg-black border  p-8 transition-all duration-500 transform will-change-transform hover:-translate-y-2;

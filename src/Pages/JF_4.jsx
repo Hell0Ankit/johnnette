@@ -12,7 +12,13 @@ import JF4TopImg from '../assets/img/JF4/JF4_top_banner.webp'
 import after from '../assets/img/JF4/JF4_img.png'
 import before from '../assets/img/JF4/JF4_wire_frame.png'
 
+import { useGSAP } from "@gsap/react";
+import { initAnimations } from "../animations/animation.js";
+
 const JF_4 = () => {
+useGSAP(() => {
+    initAnimations();
+  })
   return (
     <Layout title="JF-4 | Johnnette Technologies">
         <section className="section-custom">

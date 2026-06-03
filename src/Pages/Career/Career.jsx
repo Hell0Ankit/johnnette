@@ -19,8 +19,15 @@ import leadership from "../../assets/img/icons/career_icons/leadership_opportuni
 import latest from "../../assets/img/icons/career_icons/latest-technology.png";
 import team from "../../assets/img/icons/career_icons/team-building.png";
 
+import { useGSAP } from "@gsap/react";
+import { initAnimations } from "../../animations/animation.js";
+
+
 
 const Career = () => {
+    useGSAP(() => {
+            initAnimations();
+        })
   return (
     <Layout title="Career | Johnnette Technologies">
         <section className="section-custom">
@@ -45,7 +52,7 @@ const Career = () => {
             <SectionHeading title="Become a Part of our team" />
             <div className="body-container text-center  ">
                 <div className="max-w-[70%] mx-auto text-center">
-                       <p className="text-gray-400 text-lg leading-relaxed mb-16">
+                       <p className="fade-up text-gray-400 text-lg leading-relaxed mb-16">
                         Become a part of our innovative team building open-source, cloud-native solutions.
                         We are a passionate and growth-driven company focused on creating scalable and modern
                          technologies with a strong engineering culture and collaborative environment.
@@ -54,7 +61,7 @@ const Career = () => {
                 <div className=" rounded-3xl overflow-hidden shadow-2xl">
                 <img 
                     src={hiring} 
-                    className="zoom-in" 
+                    className="image-reveal" 
                     />
                 </div>
             </div>
@@ -63,7 +70,7 @@ const Career = () => {
          <section className="section-custom p-4 py-6">
                <SectionHeading title="Why Should You Join Us?" />
             <div className="body-container">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div className="fade-up  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     <div className="card  text-center px-4 py-10 flex flex-col h-full for-box">
                         <div className="flex-grow space-y-4">
                             <img src={flexible} alt="Total Drones & Robots Delivered" className="zoom-out block p-5 brightness-125 w-[70px] sm:w-[100px] h-auto rounded-full shadow-[0_0_25px_rgba(255,255,255,0.4)] mb-6 mx-auto" />
@@ -72,7 +79,7 @@ const Career = () => {
                         </div>
                     </div>
 
-                    <div className="card  text-center px-4 py-10 flex flex-col h-full for-box">
+                    <div className=" card  text-center px-4 py-10 flex flex-col h-full for-box">
                         <div className="flex-grow space-y-4">
                             <img src={growth} alt="Total Drones & Robots Delivered" className="zoom-out block p-5 brightness-125 w-[70px] sm:w-[100px] h-auto rounded-full shadow-[0_0_25px_rgba(255,255,255,0.4)] mb-6 mx-auto" />
                             <h3 className="primary-heading text-[25px]"> Growth Opportunities </h3>

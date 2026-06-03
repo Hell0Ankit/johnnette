@@ -3,7 +3,14 @@ import PageTopBarImage from "../Components/common/PageTopBarImage";
 import SectionHeading from "../Components/common/SectionHeading";
 import top_bar from "../assets/img/terms/terms-and-conditions.webp";
 
+import { useGSAP } from "@gsap/react";
+import { initAnimations } from "../animations/animation.js";
+
+
 const Terms = () => {
+    useGSAP(() => {
+            initAnimations();
+        })
     return (
         <Layout title="Terms And Conditions | Johnnette Technologies">
             <section className="section-custom">

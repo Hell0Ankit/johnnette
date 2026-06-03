@@ -34,6 +34,11 @@ import JF2_kakinada from '../assets/video/JF2/JF2_kakinada.mp4';
 import JF2_Bottom from '../assets/video/JF2/JF2.mp4';
 import AskDemo from '../Components/common/AskDemo';
 
+import { useGSAP } from "@gsap/react";
+import { initAnimations } from "../animations/animation.js";
+
+
+
 const JF2_imgs = [
     {src: slide_1 },
     {src: slide_2 },
@@ -120,6 +125,9 @@ const gimbalData = {
 };
 
 const JF_2 = () => {
+     useGSAP(() => {
+      initAnimations();
+    })
     return (
         <Layout title="JF-2 | Johnnette Technologies" >
             <section className="section-custom">
@@ -175,21 +183,21 @@ const JF_2 = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                         <div className="card  text-center px-4 py-10 flex flex-col h-full for-box">
                             <div className="flex-grow space-y-4">
-                                <img src={crash} alt="Total Drones & Robots Delivered" className="zoom-out block p-5 brightness-125 w-[70px] sm:w-[100px] h-auto rounded-full shadow-[0_0_25px_rgba(255,255,255,0.4)] mb-6 mx-auto" />
+                                <img src={crash} alt="Total Drones & Robots Delivered" className="zoom-in block p-5 brightness-125 w-[70px] sm:w-[100px] h-auto rounded-full shadow-[0_0_25px_rgba(255,255,255,0.4)] mb-6 mx-auto" />
                                 <h3 className="primary-heading text-[25px]"> Crash Resistant </h3>
                             </div>
                         </div>
 
                         <div className="card  text-center px-4 py-10 flex flex-col h-full for-box">
                             <div className="flex-grow space-y-4">
-                                <img src={range} alt="Total Drones & Robots Delivered" className="zoom-out block p-5 brightness-125 w-[70px] sm:w-[100px] h-auto rounded-full shadow-[0_0_25px_rgba(255,255,255,0.4)] mb-6 mx-auto" />
+                                <img src={range} alt="Total Drones & Robots Delivered" className="zoom-in block p-5 brightness-125 w-[70px] sm:w-[100px] h-auto rounded-full shadow-[0_0_25px_rgba(255,255,255,0.4)] mb-6 mx-auto" />
                                 <h3 className="primary-heading text-[25px]"> Long range & endurance </h3>
                             </div>
                         </div>
 
                         <div className="card  text-center px-4 py-10 flex flex-col h-full for-box">
                             <div className="flex-grow space-y-4">
-                                <img src={india} alt="Total Drones & Robots Delivered" className="zoom-out block p-5 brightness-125 w-[70px] sm:w-[100px] h-auto rounded-full shadow-[0_0_25px_rgba(255,255,255,0.4)] mb-6 mx-auto" />
+                                <img src={india} alt="Total Drones & Robots Delivered" className="zoom-in block p-5 brightness-125 w-[70px] sm:w-[100px] h-auto rounded-full shadow-[0_0_25px_rgba(255,255,255,0.4)] mb-6 mx-auto" />
                                 <h3 className="primary-heading text-[25px]"> 90% Made In India </h3>
                             </div>
                         </div>
@@ -197,7 +205,7 @@ const JF_2 = () => {
                         <div className="card  text-center px-4 py-10 flex flex-col h-full for-box">
 
                             <div className="flex-grow space-y-4">
-                                <img src={rupee} alt="Total Drones & Robots Delivered" className="zoom-out block p-5 brightness-125 w-[70px] sm:w-[100px] h-auto rounded-full shadow-[0_0_25px_rgba(255,255,255,0.4)] mb-6 mx-auto" />
+                                <img src={rupee} alt="Total Drones & Robots Delivered" className="zoom-in block p-5 brightness-125 w-[70px] sm:w-[100px] h-auto rounded-full shadow-[0_0_25px_rgba(255,255,255,0.4)] mb-6 mx-auto" />
                                 <h3 className="primary-heading text-[25px]"> Affordable </h3>
                             </div>
                         </div>

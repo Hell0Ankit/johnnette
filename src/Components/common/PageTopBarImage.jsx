@@ -9,7 +9,7 @@ const PageTopBarImage = ({ bgImage,title }) => {
             />
         </div>
 
-        <div className="absolute inset-0 z-10 flex flex-col justify-center items-center text-[var(--text)] text-center px-4 py-[50px] md:bg-transparent">
+        <div className=" fade-up absolute inset-0 z-10 flex flex-col justify-center items-center text-[var(--text)] text-center px-4 py-[50px] md:bg-transparent">
             <h2 className="text-[25px] sm:text-[35px] lg:text-[55px] uppercase font-[600] mb-6"> 
             {title} 
             </h2>

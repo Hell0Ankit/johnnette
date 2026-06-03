@@ -12,9 +12,15 @@ import PostCard from '../../Components/common/PostCard';
 // Import Images 
 import blog_hero from "../../assets/img/blog/blogs.webp";
 
+import { useGSAP } from "@gsap/react";
+import { initAnimations } from "../../animations/animation.js";
+
 
 
 const Post = () => {
+    useGSAP(() => {
+          initAnimations();
+        })
   return (
     <Layout title="Blog | Johnnette Technologies">
         <section className="section-custom">

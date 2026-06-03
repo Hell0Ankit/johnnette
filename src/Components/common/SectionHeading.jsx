@@ -1,5 +1,5 @@
 const SectionHeading = ({ title }) => (
-  <div className="body-container flex items-center justify-center w-full my-10 md:my-16 px-4">
+  <div className="flip-in body-container flex items-center justify-center w-full my-10 md:my-16 px-4">
     
     {/* LEFT SIDE */}
     <div className="hidden md:flex items-center flex-grow">
