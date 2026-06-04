@@ -121,7 +121,7 @@ const Space = () => {
 
   return (
     <Layout title="Space | Johnnette Technologies">
-      <div className="section-custom">
+      <div className="section-custom overflow-hidden">
 
         {/* Twinkling Stars */}
         <div className="absolute inset-0 pointer-events-none z-0">
@@ -271,51 +271,44 @@ const Space = () => {
           <div className="fade-up grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
 
             <div className="card flex flex-col h-full">
-              <div className="aspect-[16/9] flex items-center justify-center overflow-hidden">
+              <div className="flex items-center justify-center ">
                 <img src={SpaceED} alt="SpaceED" className="w-full h-full object-contain" />
               </div>
-              <div className="p-4 sm:p-6">
-                <h3 className="primary-heading text-xl sm:text-[25px]">SpaceED</h3>
-                <p className="text-sm sm:text-[16px] text-[var(--text-secondary)] mb-4">
-                  A hands-on educational program to train the next generation of space engineers in designing and building CubeSats.
-                </p>
-              </div>
+              <div class="p-6">
+                      <h3 className="primary-heading text-[25px] "> SpaceED</h3>
+                      <p className="text-[16px] text-[var(--text-secondary)]  mb-4 ">A hands-on educational program to train the next generation of space engineers in designing and building CubeSats.</p>
+                    </div>
             </div>
 
             <div className="card flex flex-col h-full">
-              <div className="h-40 sm:h-48 overflow-hidden">
+              <div className="flex items-center justify-center ">
                 <img src={chandrayaan} alt="Chandrayaan" className="w-full h-full object-cover" />
               </div>
-              <div className="p-4 sm:p-6">
-                <h3 className="primary-heading text-xl sm:text-[25px]">Subsystems for Chandrayaan</h3>
-                <p className="text-sm sm:text-[16px] text-[var(--text-secondary)] mb-4">
-                  Proudly contributing critical subsystems and components for India's prestigious lunar missions under ISRO initiatives.
-                </p>
-              </div>
+              <div class="p-6">
+                      <h3 className="primary-heading text-[25px]"> Subsystems for Chandrayaan </h3>
+                      <p className="text-[16px] text-[var(--text-secondary)]  mb-4">Proudly contributing critical subsystems and components for India’s prestigious lunar missions under ISRO initiatives.</p>
+                    </div>
             </div>
 
             <div className="card flex flex-col h-full">
-              <div className="h-40 sm:h-48 overflow-hidden">
+              <div className="flex items-center justify-center ">
                 <img src={neemdrone} alt="Near-Vacuum Drone" className="w-full h-full object-cover" />
               </div>
-              <div className="p-4 sm:p-6">
-                <h3 className="primary-heading text-xl sm:text-[25px]">Near-Vacuum Drone</h3>
-                <p className="text-sm sm:text-[16px] text-[var(--text-secondary)] mb-4">
-                  Developing a specialized drone capable of operating in low-pressure environments — a game changer for extraterrestrial missions.
-                </p>
-              </div>
+              <div class="p-6">
+                      <h3 className="primary-heading text-[25px]"> Near-Vacuum Drone </h3>
+                      <p className="text-[16px] text-[var(--text-secondary)]  mb-4">Developing a specialized drone capable of operating in low-pressure environments — a game changer for extraterrestrial missions.</p>
+                    </div>
             </div>
 
             <div className="card flex flex-col h-full">
-              <div className="h-40 sm:h-48 overflow-hidden">
+              <div className="flex items-center justify-center">
                 <img src={CubeSat} alt="CubeSat" className="w-full h-full object-cover" />
               </div>
-              <div className="p-4 sm:p-6">
-                <h3 className="primary-heading text-xl sm:text-[25px]">CubeSat</h3>
-                <p className="text-sm sm:text-[16px] text-[var(--text-secondary)] mb-4">
-                  Launching soon: A drone system that deploys CubeSats from space stations into orbit and returns autonomously—pushing the future of in-space logistics.
-                </p>
-              </div>
+              <div class="p-6">
+                      <h3 className="primary-heading text-[25px]"> CubeSat </h3>
+                      <p className="text-[16px] text-[var(--text-secondary)]  mb-4">Launching soon: A drone system that deploys CubeSats from space stations into orbit and returns autonomously—pushing the future of in-space logistics.</p>
+                    </div>
+
             </div>
 
           </div>
