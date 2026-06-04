@@ -28,7 +28,7 @@ const AtmosphereGlow = () => {
     <mesh>
       <sphereGeometry args={[2.06, 128, 128]} />
       <meshStandardMaterial
-        color="#1d4ed8"
+        color="#1d4ed8" 
         side={THREE.BackSide}
         transparent
         opacity={0.04}
