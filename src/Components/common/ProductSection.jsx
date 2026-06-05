@@ -14,7 +14,7 @@ const ProductSection = ({ title, description, image,btntext, link}) => {
                 </div>
             </div>
             <div className=" hero_right w-[100%] lg:w-[60%]">
-                <img src={image} alt={title} className='image-reveal w-full h-auto object-contain drop-shadow-2xl brightness-150 contrast-105 saturate-110' />
+                <img src={image} alt={title} fetchPriority="high" loading="eager" className='image-reveal w-full h-auto object-contain drop-shadow-2xl brightness-150 contrast-105 saturate-110' />
             </div>
         </div>
        )

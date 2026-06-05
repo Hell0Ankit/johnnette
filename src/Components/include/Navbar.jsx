@@ -87,11 +87,20 @@ const Navbar = () => {
             </div>
 
             {/* 3. Hamburger Button */}
-            <div className="menu-btn">
-              <button onClick={toggleSidebar} className="text-[var(--text)] hover:text-[var(--brand-color)]">
-                <i className={`fa-solid ${isSidebarOpen ? "fa-xmark" : "fa-bars"} text-[24px]`}></i>
-              </button>
-            </div>
+          <div className="menu-btn">
+  <button
+    type="button"
+    onClick={toggleSidebar}
+    aria-label={isSidebarOpen ? "Close navigation menu" : "Open navigation menu"}
+    aria-expanded={isSidebarOpen}
+    className="text-[var(--text)] hover:text-[var(--brand-color)]"
+  >
+    <i
+      className={`fa-solid ${isSidebarOpen ? "fa-xmark" : "fa-bars"} text-[24px]`}
+      aria-hidden="true"
+    ></i>
+  </button>
+</div>
           </nav>
         </div>
       </header>

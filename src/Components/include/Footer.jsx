@@ -20,12 +20,48 @@ const Footer = () => {
                         <p>Noida - 201301, India</p>
                         <p><i class="fa-solid fa-envelope"></i> <a href="mailto:contact@johnnette.com">contact@johnnette.com</a></p>
                     </div>
-                    <div className="social-icons flex gap-2  justify-center md:justify-start ">
-                        
-                        <a href="https://www.facebook.com/JOHNNETTETECHNOLOGIES/" target="blank" className="bg-[var(--secondary)] flex items-center justify-center w-[30px] h-[30px] rounded-full"><i className="fa-brands fa-facebook-f text-[18px] text-[#0064e0] "></i></a> 
-                        <a href="https://www.linkedin.com/company/johnnette-technologies/"  target="blank" className="bg-[var(--secondary)] flex items-center justify-center w-[30px] h-[30px] rounded-full"><i className="fa-brands fa-linkedin-in text-[18px] text-[#0a66c2] "></i></a> 
-                        <a href="https://www.youtube.com/channel/UCSLaO3SKQs4v4jUIgSacQgg" target="blank" className="bg-[var(--secondary)] flex items-center justify-center w-[30px] h-[30px] rounded-full"><i className="fa-brands fa-youtube text-[18px] text-[#ff0000] "></i></a> 
-                    </div>
+                    <div className="social-icons flex gap-2 justify-center md:justify-start">
+
+  <a
+    href="https://www.facebook.com/JOHNNETTETECHNOLOGIES/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Visit our Facebook page"
+    className="bg-[var(--secondary)] flex items-center justify-center w-[30px] h-[30px] rounded-full"
+  >
+    <i
+      className="fa-brands fa-facebook-f text-[18px] text-[#0064e0]"
+      aria-hidden="true"
+    ></i>
+  </a>
+
+  <a
+    href="https://www.linkedin.com/company/johnnette-technologies/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Visit our LinkedIn page"
+    className="bg-[var(--secondary)] flex items-center justify-center w-[30px] h-[30px] rounded-full"
+  >
+    <i
+      className="fa-brands fa-linkedin-in text-[18px] text-[#0a66c2]"
+      aria-hidden="true"
+    ></i>
+  </a>
+
+  <a
+    href="https://www.youtube.com/channel/UCSLaO3SKQs4v4jUIgSacQgg"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Visit our YouTube channel"
+    className="bg-[var(--secondary)] flex items-center justify-center w-[30px] h-[30px] rounded-full"
+  >
+    <i
+      className="fa-brands fa-youtube text-[18px] text-[#ff0000]"
+      aria-hidden="true"
+    ></i>
+  </a>
+
+</div>
                 </div>
                 <div className="col-2  w-full md:w-[calc(50%-20px)] lg:w-[calc(25%-30px)] text-center md:text-left">
                     <ul className="space-y-2 text-[14px]">

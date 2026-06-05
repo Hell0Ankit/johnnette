@@ -13,6 +13,7 @@ const ProjectVideo = ({ videoSrc, thumbnail, title }) => {
             playsInline
             controls 
             preload="metadata"
+            aria-label="Johnnette Technologies promotional video"
             poster={thumbnail}
             className="w-full h-auto aspect-video object-cover cursor-pointer brightness-110"
           >
