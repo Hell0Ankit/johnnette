@@ -8,7 +8,7 @@ import ProjectVideo from '../Components/common/ProjectVideo';
 // Import images
 import JF4ImgHero from "../assets/img/JF4/JF4_hero.webp";
 import JF2ImgHero from "../assets/img/JF2/JF2_hero.webp";
-import JM1ImgHero from "../assets/img/JM1/JM1_hero.webp";
+import JM1ImgHero from "../assets/img/JM1/JM1_Hero.webp";
 
 // import icons 
 import delivered from "../assets/img/icons/delivered.png";
