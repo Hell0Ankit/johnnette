@@ -48,7 +48,7 @@ useGSAP(() => {
                 description="Johnnette JF-2 is ideal for low-altitude Intelligence, Surveillance, and Reconnaissance missions that depend on rapid deployment and pinpoint manoeuvrability."
                 image={JF2ImgHero}
                 btntext="Know More"
-                link="/jf2"
+                link="/jf2" 
             />
         </section>
 
