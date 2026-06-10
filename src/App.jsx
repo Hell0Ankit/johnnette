@@ -16,6 +16,7 @@ import CodeEthics from "./Pages/CodeEthics";
 import Post from "./Pages/blog/Post";
 import PostDetail from "./Pages/blog/PostDetail";
 import News from "./Pages/news/News";
+import NotFound from "./Pages/NotFound/NotFound";
 
 
 
@@ -40,7 +41,7 @@ const App = () => {
 
         <Route path="/blogs" element={<Post/>} />
         <Route path="/blogs/:id" element={<PostDetail/>} />
-
+        <Route path="*" element={<NotFound />} />
 
         
         <Route path="/contact" element={<Contact/>} />
