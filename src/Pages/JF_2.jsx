@@ -203,7 +203,6 @@ const JF_2 = () => {
                         </div>
 
                         <div className="card  text-center px-4 py-10 flex flex-col h-full for-box">
-
                             <div className="flex-grow space-y-4">
                                 <img src={rupee} alt="Total Drones & Robots Delivered" className="zoom-in block p-5 brightness-125 w-[70px] sm:w-[100px] h-auto rounded-full shadow-[0_0_25px_rgba(255,255,255,0.4)] mb-6 mx-auto" />
                                 <h3 className="primary-heading text-[25px]"> Affordable </h3>
@@ -236,7 +235,6 @@ const JF_2 = () => {
                 />
                 </div>
             </section>
-
             
           <section className="section-custom py-3">
                 <AskDemo/>
