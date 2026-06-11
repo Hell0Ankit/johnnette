@@ -26,7 +26,6 @@ useGSAP(() => {
               bgImage={JF4TopImg}
               title="Johnnette JF-4"
               up_to=" Up to"
-
               range="350 km"
               flightTime="16 hours"
               weight="1800 kg"
