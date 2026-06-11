@@ -37,7 +37,7 @@ const Cookies = () => {
                         website with regards to the information that they shared
                         and/or collect in Johnnette Technologies. This policy is
                         not applicable to any information collected offline or
-                        via channels other than this website.
+                        via channels other than this website. 
                     </p>
                     <h2 className=" secondary-heading leading-tight"> What Are Cookies ?</h2>
                     <p className="text-gray-400 text-lg leading-relaxed ">As is common practice with almost all professional websites this site uses cookies, which are tiny files that are downloaded to your computer, to improve your experience. This page describes what information they gather, how we use it and why we sometimes need to store these cookies. We will also share how you can prevent these cookies from being stored however this may downgrade or 'break' certain elements of the site’s functionality.</p>
