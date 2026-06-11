@@ -123,7 +123,6 @@ const gimbalData = {
     }
   }
 };
-
 const JF_2 = () => {
      useGSAP(() => {
       initAnimations();
@@ -235,7 +234,7 @@ const JF_2 = () => {
                 />
                 </div>
             </section>
-            
+
           <section className="section-custom py-3">
                 <AskDemo/>
         </section>
