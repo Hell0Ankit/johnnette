@@ -36,7 +36,7 @@ const Cookies = () => {
                         online activities and is valid for visitors to our
                         website with regards to the information that they shared
                         and/or collect in Johnnette Technologies. This policy is
-                        not applicable to any information collected offline or
+                        not applicable to any information collected offline  or
                         via channels other than this website. 
                     </p>
                     <h2 className=" secondary-heading leading-tight"> What Are Cookies ?</h2>
