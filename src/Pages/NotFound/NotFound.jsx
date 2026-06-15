@@ -11,12 +11,11 @@ function NotFound() {
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#1e293b10_1px,transparent_1px),linear-gradient(to_bottom,#1e293b10_1px,transparent_1px)] bg-[size:4rem_4rem] pointer-events-none"></div>
         <div className="z-10 text-center max-w-lg mx-auto p-8 border border-cyan-500/20 bg-slate-900/60 backdrop-blur-md rounded-xl relative shadow-[0_0_50px_rgba(6,182,212,0.05)]">
           {/* Telemetry Status Bar */}
-          <div className="flex items-center justify-between text-xs text-[var(--brand-color)] mb-6 bg-amber-500/5 px-3 py-1.5 border border-amber-500/20 rounded">
-            <span className="flex items-center gap-1.5 animate-pulse">
-              <span className="h-2 w-2 rounded-full bg-[var(--brand-color)]"></span>
-              SIGNAL_LOSS: UAV_OUT_OF_BOUNDS
-            </span>
-            <span>ALT: ---m | BAT: 100%</span>
+          <div className="flex items-center justify-center text-xs text-[var(--brand-color)] mb-6 bg-amber-500/5 px-3 py-1.5 border border-amber-500/20 rounded">
+              <span className="flex items-center gap-1.5 animate-pulse">
+                <span className="h-2 w-2 rounded-full bg-[var(--brand-color)]"></span>
+                ERROR_CODE: 404_PAGE_MISSING
+              </span>
           </div>
           
           {/* Big Error Display */}
@@ -28,10 +27,10 @@ function NotFound() {
 
           {/* Aerospace Drone Copy */}
           <h2 className="text-xl md:text-2xl font-bold uppercase tracking-wider text-[var(--white)] mb-2">
-            Page Not Found
+           Oops! Page Not Found
           </h2>
           <p className="text-sm text-slate-400 mb-8 max-w-sm mx-auto leading-relaxed">
-            The telemetry server couldn't locate the waypoint. The UAV has triggered an automatic RTL (Return To Launch) protocol.
+           We couldn't find the page you were looking for. It may have been removed, renamed, or is temporarily unavailable.
           </p>
 
           {/* Action Buttons (Industrial/Tech Style) */}
