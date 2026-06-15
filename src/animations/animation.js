@@ -11,7 +11,7 @@ gsap.utils.toArray(".fade-left").forEach((element) => {
       scrollTrigger: {
         trigger: element,
         start: "top 85%",
-        toggleActions: "play reset play reset",
+        // toggleActions: "play reset play reset",
       },
       x: -100,
       opacity: 0,
