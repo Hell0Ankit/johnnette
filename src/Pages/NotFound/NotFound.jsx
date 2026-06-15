@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function NotFound() {
   return (
-    <Layout title="404: GPS Signal Lost | Johnnette Technologies">
+    <Layout title="Page Not Found | Johnnette Technologies">
       <div className="relative min-h-screen flex flex-col items-center justify-center bg-[#0a0f1d] text-slate-100 overflow-hidden px-4 font-mono">
         
         {/* HUD Grid Layout Background */}
