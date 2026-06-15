@@ -6,7 +6,6 @@ function NotFound() {
   return (
     <Layout title="Page Not Found | Johnnette Technologies">
       <div className="relative min-h-screen flex flex-col items-center justify-center bg-[#0a0f1d] text-slate-100 overflow-hidden px-4 font-mono">
-        
         {/* HUD Grid Layout Background */}
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#1e293b10_1px,transparent_1px),linear-gradient(to_bottom,#1e293b10_1px,transparent_1px)] bg-[size:4rem_4rem] pointer-events-none"></div>
         <div className="z-10 text-center max-w-lg mx-auto p-8 border border-cyan-500/20 bg-slate-900/60 backdrop-blur-md rounded-xl relative shadow-[0_0_50px_rgba(6,182,212,0.05)]">

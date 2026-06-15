@@ -1,5 +1,6 @@
 // Import Images 
 import loitering from "../assets/img/blog/loitering-munitions.jpeg";
+import paradigm from "../assets/img/blog/paradigm.jpg";
 export const PostData = [
   {
     id: "loitering-munitions-and-its-role-in-modern-warfare",
@@ -168,7 +169,7 @@ description: `
    {
     id: "paradigm-shift-in-maritime-warfare",
     // 1. Image (Variable path/URL)
-    image: loitering, 
+    image: paradigm, 
     
     // 2. Author Name 
     author: "Capt Anil Kumar Mehta", 
@@ -178,7 +179,7 @@ description: `
     
     description: `
 
-      <h3>Introduction:</h3>
+      
       <p>The degree of maritime supremacy where in the opposing force is incapable of effective interference will change with the role of Unmanned Combat Aerial Vehicles (UCAV) as this will become the key component in conflicts. Worldwide there would be many UCAVs customized for maritime applications for naval forces which will add another dimension in determining the outcome of battle amidst challenging technologies. Presently maritime missions with UAV are ISR (Intelligence, Surveillance and Reconnaissance) missions. Developing a stealthy long range drone with a weapon payload that could go beyond and survive against the modern air defence is a challenge. UCAVs would show promise in achieving these missions.</p>
       <p>Navies of the world have decided to go for an Unmanned Carrier Launch and Surveillance & Strike (UCLASS) system. The UCLASS is being designed to provide Navy carriers with long range surveillance and strike capabilities to target terrorists (Anti Piracy). UCAVs would be capable of rapid deployment from carriers which could stay out of the range of threats. A persistent surveillance capability that could also strike vital command & control and air defence sites if required could shift the paradigm of strategies/patterns/theories of Maritime Warfare.</p>
       
@@ -231,7 +232,7 @@ description: `
     
     description: `
 
-      <h3>Abstract: </h3>
+     
       <p>This white paper explores the evolving landscape of military drones in India, examining the current state, potential opportunities, challenges, and the strategic implications of integrating unmanned aerial vehicles (UAV) into the country's defence apparatus. As technology advances and geopolitical dynamics shift, India stands at a crucial point in determining the role and significance of military drones in its national security strategy.</p>
       
       <h3>Introduction:</h3>
