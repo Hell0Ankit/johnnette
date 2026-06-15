@@ -12,10 +12,10 @@ import SectionHeading from '../Components/common/SectionHeading';
 // Import images 
 import JF2_img from '../assets/img/JF2/JF2_img.png';
 import JF2_wire_frame from '../assets/img/JF2/JF2_wire_frame.png';
-import crash from '../assets/img/JF2/crash.png';
-import range  from '../assets/img/JF2/range.png';
-import india  from '../assets/img/JF2/india.webp';
-import rupee  from '../assets/img/JF2/rupee.png';
+import crash from '../assets/img/icons/JF2/crash.png';
+import range  from '../assets/img/icons/JF2/range.png';
+import india  from '../assets/img/icons/JF2/india_map.png';
+import rupee  from '../assets/img/icons/JF2/rupee.png';
 
 // Import images for  ImagesCarousel slider 
 import slide_1 from "../assets/img/JF2/ImagesCarousel/JF2_slide_1.webp";

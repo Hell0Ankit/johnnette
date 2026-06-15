@@ -11,10 +11,10 @@ import { OrbitControls } from '@react-three/drei';
 import * as THREE from 'three';
 
 import satelliteImg from '../assets/img/space/cubesat_icon.png';
-import SpaceED from '../assets/img/space/SpaceED.webp';
-import chandrayaan from '../assets/img/space/chandrayaan-3.webp';
-import neemdrone from '../assets/img/space/neemdrone.webp';
-import CubeSat from '../assets/img/space/CubeSat.webp';
+import SpaceED from '../assets/img/space/SpaceED.jpg';
+import chandrayaan from '../assets/img/space/chandrayaan-3.jpg';
+import neemdrone from '../assets/img/space/neemdrone.jpg';
+import CubeSat from '../assets/img/space/CubeSat.jpg';
 
 import { useGSAP } from "@gsap/react";
 import { initAnimations } from "../animations/animation.js";

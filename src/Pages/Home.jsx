@@ -11,10 +11,10 @@ import JF2ImgHero from "../assets/img/JF2/JF2_hero.webp";
 import JM1ImgHero from "../assets/img/JM1/JM1_Hero.webp";
 
 // import icons 
-import delivered from "../assets/img/icons/delivered.png";
-import worldwide from "../assets/img/icons/worldwide.png";
-import pilots from "../assets/img/icons/pilots.png";
-import government from "../assets/img/icons/government.png";
+import delivered from "../assets/img/icons/home/delivered.png";
+import worldwide from "../assets/img/icons/home/worldwide.png";
+import pilots from "../assets/img/icons/home/pilots.png";
+import government from "../assets/img/icons/home/government.png";
 
 // import Videos 
 import VDHome from "../assets/video/home/home.mp4";

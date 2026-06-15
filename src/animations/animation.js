@@ -40,7 +40,7 @@ gsap.utils.toArray(".fade-up").forEach((element) => {
       scrollTrigger: {
         trigger: element,
         start: "top 85%",
-        toggleActions: "play reset play reset",
+        // toggleActions: "play reset play reset",
 
       },
       y: 80,
@@ -56,7 +56,7 @@ gsap.utils.toArray(".fade-down").forEach((element) => {
       scrollTrigger: {
         trigger: element,
         start: "top 85%",
-        toggleActions: "play reset play reset",
+        // toggleActions: "play reset play reset",
 
       },
       y: -80,
@@ -72,7 +72,7 @@ gsap.utils.toArray(".slide-up").forEach((element) => {
       scrollTrigger: {
         trigger: element,
         start: "top 85%",
-        toggleActions: "play reset play reset",
+        // toggleActions: "play reset play reset",
 
       },
       y: 150,
@@ -87,7 +87,7 @@ gsap.utils.toArray(".slide-down").forEach((element) => {
       scrollTrigger: {
         trigger: element,
         start: "top 85%",
-        toggleActions: "play reset play reset",
+        // toggleActions: "play reset play reset",
 
       },
       y: -150,
@@ -104,7 +104,7 @@ gsap.utils.toArray(".zoom-in").forEach((element) => {
       scrollTrigger: {
         trigger: element,
         start: "top 85%",
-        toggleActions: "play reset play reset",
+        // toggleActions: "play reset play reset",
 
       },
       scale: 0.7,
@@ -120,7 +120,7 @@ gsap.utils.toArray(".zoom-out").forEach((element) => {
       scrollTrigger: {
         trigger: element,
         start: "top 85%",
-        toggleActions: "play reset play reset",
+        // toggleActions: "play reset play reset",
 
       },
       scale: 1.3,
@@ -136,7 +136,7 @@ gsap.utils.toArray(".rotate-in").forEach((element) => {
       scrollTrigger: {
         trigger: element,
         start: "top 85%",
-        toggleActions: "play reset play reset",
+        // toggleActions: "play reset play reset",
 
       },
       rotation: -180,
@@ -152,7 +152,7 @@ gsap.utils.toArray(".rotate-in").forEach((element) => {
       scrollTrigger: {
         trigger: element,
         start: "top 85%",
-         toggleActions: "play reset play reset",
+        //  toggleActions: "play reset play reset",
       },
       rotationY: 90,
       opacity: 0,

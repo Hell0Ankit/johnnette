@@ -8,7 +8,7 @@ import PageTopBarImage from '../Components/common/PageTopBarImage';
 import SectionHeading from '../Components/common/SectionHeading';
 
 // Import Images 
-import contactimg from "../assets/img/contact/contact_us_3.webp";
+import contactimg from "../assets/img/contact/contact_us_banner.webp";
 import map_pin from "../assets/img/contact/icons/india.png";
 import map_chart from "../assets/img/contact/MapChart.webp";
 
@@ -41,14 +41,14 @@ useGSAP(() => {
         <section className="section-custom py-20 px-6" id='contact'> 
             <div className="body-container grid md:grid-cols-2 gap-12 items-center">
                 {/* Left Side: Contact Form */}
-                <div className=" fade-up bg-blue-600/10 py-14 px-5 card " >
+                <div className=" flip-in bg-blue-600/10 py-14 px-5 card " >
                     <ContactForm />
                 </div>
 
                 {/* Right Side: Locations */}
                 <div className="flex flex-col space-y-8">
                     {/* --- LOCATION 1: HEADQUARTER --- */}
-                    <div className="fade-up bg-blue-600/10 p-8 card  hover:bg-blue-600/20 transition-all duration-300 group">
+                    <div className="flip-in bg-blue-600/10 p-8 card  hover:bg-blue-600/20">
                         <div className=" flex items-center gap-5 pb-6 mb-6 border-b border-[#3a3a3a]">
                             <div className="flex-shrink-0">
                                 <img 
@@ -91,7 +91,7 @@ useGSAP(() => {
                     </div>
 
                     {/* --- LOCATION 2: MFG UNIT --- */}
-                    <div className="fade-up bg-emerald-600/10 p-8 card border border-emerald-500/20 hover:bg-emerald-600/20 transition-all duration-300 group">
+                    <div className="flip-in bg-emerald-600/10 p-8 card border border-emerald-500/20 hover:bg-emerald-600/20 ">
                         <div className="flex items-center gap-5 pb-6 mb-6 border-b border-[#3a3a3a]">
                             <div className="flex-shrink-0">
                                 <img 
