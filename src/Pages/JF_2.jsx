@@ -125,7 +125,7 @@ const gimbalData = {
 };
 const JF_2 = () => {
      useGSAP(() => {
-      initAnimations();
+      initAnimations(); 
     })
     return (
         <Layout title="JF-2 | Johnnette Technologies" >
