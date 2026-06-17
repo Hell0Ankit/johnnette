@@ -70,7 +70,7 @@ const Terms = () => {
                         be taken immediately after any incidents/accident and
                         submitted along with repair request. JTPL shall not be
                         liable for any damage caused by the customer or
-                        customer’s assistant staff.
+                        customer’s assistant staff. 
                     </p>
 
                     <h2 className=" secondary-heading leading-tight">
